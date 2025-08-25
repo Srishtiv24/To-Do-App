@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="toDoList.css" rel="stylesheet">
+</head>
+<body>
+    <h1>TO DO APP</h1>
+    <div id="container">
+
+    <div id="addcontainer">
+    <input placeholder="Enter your task" type="text" id="inp">
+    <button id="addBtn" >Add</button>
+    </div>
+    
+    <div id="listcontainer">
+    <ul id="list">
+      <li><div><span>Code</span><button class="delete">
+        <i class="far fa-trash-alt"></i>
+    </button></div></li>
+      <hr>
+      <li><div> <span>Sleep</span><button class="delete">
+        <i class="far fa-trash-alt"></i>
+    </button> </div></li>
+      <hr>
+       <li><div> <span>Gym</span><button class="delete">
+        <i class="far fa-trash-alt"></i>
+    </button></div></li>
+      <hr>
+    </ul>
+    </div>
+    </div>
+    <script src="toDoList.js" rel="script"></script>
+</body>
+</html>
+
+<!--future -  Smart Feature Ideas
+1. Persistent Storage with localStorage
+Let users keep their tasks even after refreshing the page.
+
+Save tasks to localStorage on add/delete.
+
+Load tasks from localStorage on page load.
+
+2. Due Date & Time Reminder
+Let users set a deadline for each task.
+
+Add a date/time input next to the task.
+
+Highlight overdue tasks or send alerts.
+
+3. Task Categories or Tags
+Organize tasks by type (e.g., Work, Personal, Urgent).
+
+Use colored labels or dropdowns.
+
+Filter tasks by category.
+
+4. Search & Filter
+Quickly find tasks by keyword or status.
+
+Add a search bar.
+
+Filter by “Completed” / “Pending”.
+
+5. Drag-and-Drop Reordering
+Let users rearrange tasks by priority.
+
+Use libraries like SortableJS or native drag events.
+
+6. Dark Mode Toggle
+Give users a theme switcher for better accessibility.
+
+Use CSS variables and toggle classes.
+
+7. Animations for Add/Delete
+Make UI feel smoother and more responsive.
+
+Use @keyframes or CSS transitions.
+
+Fade out deleted tasks or slide in new ones.
+
+8. Task Editing
+Allow users to update task text.
+
+Double-click to edit.
+
+Save changes with Enter or a button.
+
+9. Progress Tracker
+Show how many tasks are done vs total.
+
+Add a progress bar or percentage indicator.
+
+10. Voice Input (Bonus!)
+Let users add tasks using speech recognition.
+
+Use the Web Speech API for fun voice commands.
+
+-->
+
