@@ -28,7 +28,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 2.5rem;
-    width: 40%;
+    width: 38%;
     min-width: 370px;
 }
 ul {
@@ -46,7 +46,7 @@ h1{
 
 #addcontainer
 {  width: 70%;
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
   padding: 1rem;
@@ -85,6 +85,17 @@ h1{
 
 
 }
+
+.edit
+{   background-color: blueviolet;
+    color: white ;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid blueviolet;
+    border-radius: 0.3rem;
+    font-size:1rem;
+
+
+}
 .delete
 {
     background-color: blueviolet;
@@ -93,6 +104,8 @@ h1{
     border: 1px solid blueviolet;
     border-radius: 0.3rem;
     font-size:1rem;
+    float: right;
+
 
 }
 #addBtn:hover
@@ -105,10 +118,13 @@ h1{
     background-color: palevioletred;
     border: 1px solid palevioletred;
 }
-.delete
+
+.edit:hover
 {
-    float:right;
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
 }
+
 #listcontainer 
 {
     height:max-content;
@@ -118,8 +134,6 @@ h1{
     border-radius: 0.3rem;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
     width: 70%;
-
-
 }
 
 li
@@ -128,14 +142,19 @@ li
 }
 #list li div
 { 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#list li div div
+{ 
+   display: flex;
+   justify-content: flex-end;
+   gap:1rem;
 }
 
-.done
+.done span
 {
     text-decoration: line-through;
-    text-decoration-color: rgba(0, 0, 0, 0.437); 
-
+    opacity: 0.6;
 }
