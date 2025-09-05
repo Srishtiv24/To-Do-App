@@ -1,7 +1,17 @@
 # To-Do-App
-A sleek, responsive To-Do List app built with HTML, CSS, and JavaScript. Add, delete, and mark tasks as complete with intuitive UI and Font Awesome icons. Designed for pixel-perfect alignment and clean event delegation.
+A sleek, responsive To-Do List app built with HTML, CSS, and JavaScript.
+Features
+Add Tasks – Quickly jot down tasks with a clean input field and responsive layout.
 
+Mark as Complete – Toggle tasks with a single click to visually track progress.
 
+Edit Tasks – Modify task content inline without refreshing or losing data.
+
+Delete Tasks – Remove tasks instantly with a smooth UI and confirmation logic.
+
+Persistent Storage – All tasks are saved using localStorage, so your list stays intact even after refreshing or closing the browser.
+
+Responsive Design – Optimized for desktop and mobile with fluid layout and spacing.
 <!--future -  Smart Feature Ideas
 1. Persistent Storage with localStorage
 Let users keep their tasks even after refreshing the page.
