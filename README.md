@@ -16,6 +16,12 @@ Responsive Design – Optimized for desktop and mobile with fluid layout and spa
 
 Link: https://srishtiv24.github.io/To-Do-App/toDoList.html
 
+Learning Outcome:
+1)Mastered localStorage for client-side data persistence
+2)Practiced event-driven UI logic and clean DOM manipulation
+3)Explored responsive design principles and layout optimization
+4)Implemented inline editing and dynamic task management
+
 <!--future -  Smart Feature Ideas
 2. Due Date & Time Reminder
 Let users set a deadline for each task.
