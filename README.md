@@ -1,6 +1,7 @@
 # To-Do-App
-A sleek, responsive To-Do List app built with HTML, CSS, and JavaScript.
-Features
+A sleek, responsive To-Do List app built with HTML, CSS, and JavaScript, designed for clarity, speed, and pixel-perfect alignment. Users can add, edit, delete, and mark tasks as complete with an intuitive interface.
+
+Features -
 Add Tasks – Quickly jot down tasks with a clean input field and responsive layout.
 
 Mark as Complete – Toggle tasks with a single click to visually track progress.
@@ -12,6 +13,9 @@ Delete Tasks – Remove tasks instantly with a smooth UI and confirmation logic.
 Persistent Storage – All tasks are saved using localStorage, so your list stays intact even after refreshing or closing the browser.
 
 Responsive Design – Optimized for desktop and mobile with fluid layout and spacing.
+
+Link: https://srishtiv24.github.io/To-Do-App/toDoList.html
+
 <!--future -  Smart Feature Ideas
 1. Persistent Storage with localStorage
 Let users keep their tasks even after refreshing the page.
@@ -62,7 +66,7 @@ Show how many tasks are done vs total.
 
 Add a progress bar or percentage indicator.
 
-10. Voice Input (Bonus!)
+10. Voice Input 
 Let users add tasks using speech recognition.
 
 Use the Web Speech API for fun voice commands.
