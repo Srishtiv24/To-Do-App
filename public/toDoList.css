@@ -1,0 +1,178 @@
+body{
+    background: linear-gradient(
+        120deg,
+        #8052ec,
+        #d161ff
+    );
+
+    height:100vh;
+
+    font-family: 'Poppins';
+}
+  /*  linear-gradient(...): Creates a gradient that transitions in a straight line.
+
+135deg: Sets the direction of the gradient.
+
+0° is left to right
+
+90° is top to bottom
+
+135° goes diagonally from top-left to bottom-right
+
+*/
+
+#container
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    width: 38%;
+    min-width: 370px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0.5rem;
+}
+
+h1{
+    text-align: center;
+    color:white;
+    word-spacing:2px;
+    letter-spacing: 1.7px;
+    font-size: 2rem;
+}
+
+#addcontainer
+{  width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding: 1rem;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+#inp
+{
+    height:40%;
+    width: 70%;
+    padding: 0.5rem;
+    border:1px solid #ccc;
+    font-size:1rem;
+    background-color: whitesmoke;
+    margin: 0.5rem;
+    
+}
+
+#inp:focus {
+    outline: none; /* Removes default black outline */
+    border: 2px solid #d161ff; /* Adds a custom border */
+    box-shadow: 0 0 5px #d161ff; /* Optional: glowing effect */
+  }
+
+#addBtn
+{
+    background-color: blueviolet;
+    color: white ;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid blueviolet;
+    border-radius: 0.3rem;
+    font-size:1rem;
+    float: right;
+}
+
+#micBtn
+{  background-color: blueviolet;
+    color: white ;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid blueviolet;
+    border-radius: 0.3rem;
+    font-size:1rem;
+    margin: 0.5rem;
+}
+
+.edit
+{   background-color: blueviolet;
+    color: white ;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid blueviolet;
+    border-radius: 0.3rem;
+    font-size:1rem;
+}
+
+.delete
+{
+    background-color: blueviolet;
+    color: white ;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid blueviolet;
+    border-radius: 0.3rem;
+    font-size:1rem;
+    float: right;
+}
+
+#addBtn:hover
+{
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+}
+
+#micBtn:hover
+{
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+}
+.delete:hover
+{
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+}
+
+.edit:hover
+{
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+}
+
+#listcontainer 
+{
+    height:max-content;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 70%;
+}
+
+li
+{
+    margin-bottom: 0.9rem;
+}
+#list li div
+{ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#list li div div
+{ 
+   display: flex;
+   justify-content: flex-end;
+   gap:1rem;
+}
+.done .task-text {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
+  
+  .done .task-text .task-category {
+    display: inline-block;   /* break inheritance */
+    text-decoration: none !important;   /* cancel inherited strike-through */
+    opacity: 1 !important;              /* restore normal visibility */
+    color: #c5034a;    /* keep category color */
+  }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let key=prompt("Enter a key");
+        let value=prompt("Enter a value");
+
+        localStorage.setItem(key,value);//prompts vlaues are already in str format
+        console.log(`the value at ${key} is ${localStorage.getItem(key)}`);
+
+        if(key=="color" || key=="age")
+    { 
+        localStorage.removeItem(key);
+    }
+
+      if(key==0)
+      {
+        localStorage.clear(); //removes all
+      }
+
+      //localStorage.length prop
+      //these data stored are objects and we can assign the key value in it and remove like we do on objs - localStorage.key= value amd delete localStorage.key
+    </script>
+</body>
+</html>
