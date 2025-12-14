@@ -1,4 +1,4 @@
-# 🎙️ Voice-Enabled To-Do App with AI Categorization
+# To-Do App with AI Categorization
 
 A modern, accessible to-do list application built with vanilla JavaScript and Node.js.  
 Features include **voice input**, **local storage persistence**, **AI-powered categorization**, and a clean, recruiter-ready UI.
