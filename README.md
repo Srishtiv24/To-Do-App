@@ -23,7 +23,7 @@ Features include **voice input**, **local storage persistence**, **AI-powered ca
 - **Deployment**: Render (cloud hosting)
 
 ---
-
+![preview](./preview.jpg)
 ## 🌐 Live Demo
 Deployed on Render:  
 👉 [https://to-do-app-j1y8.onrender.com](https://to-do-app-j1y8.onrender.com)
